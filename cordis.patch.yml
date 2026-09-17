@@ -1,0 +1,7 @@
+# dsh-plugin-wwrs-voice layer：语音生成（W0 空壳；工具在 W1 落地）。
+# config.workspace：项目根（绝对路径）；空串 = 按 env WWRS_WORKSPACE > 中性锚探测。
+- insert:
+    - id: wwrs-voice
+      name: dsh-plugin-wwrs-voice
+      config:
+        workspace: ""
