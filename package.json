@@ -57,5 +57,8 @@
   "exports": {
     ".": "./src/cordis.ts",
     "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-tools": "0.1.5-rc.2"
   }
 }
