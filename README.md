@@ -1,6 +1,6 @@
 # dsh-plugin-wwrs-voice
 
-Voice generation DSH plugin (open source): MiniMax TTS, VoxCPM2 and voice design behind one facade. Zero runtime dependencies.
+Voice generation DSH plugin (open source): MiniMax TTS, VoxCPM2 and voice design behind one facade. Sole runtime dependency is @deepseek-ai/dsh-tools (defineTool DSL).
 
 ## Status
 

@@ -1,6 +1,6 @@
 # dsh-plugin-wwrs-voice
 
-语音生成 DSH 插件（开源）：MiniMax TTS、VoxCPM2 与音色设计收敛到同一立面之后。零运行时依赖。
+语音生成 DSH 插件（开源）：MiniMax TTS、VoxCPM2 与音色设计收敛到同一立面之后。唯一运行时依赖是 @deepseek-ai/dsh-tools（defineTool DSL）。
 
 ## 状态
 
