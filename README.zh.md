@@ -35,6 +35,10 @@ W1 已落地：同一立面后四个工具。`voice_synthesize` 全实现 MiniMa
 
 `voice_synthesize{text, voiceId, model, outputPath, speed?, emotion?, overwrite?}` 合成旁白为 mp3 并附词时间戳（`voiceId`/`model` 显式传入、不代选；`overwrite` 缺省 false；超长文本拒收请分段调）。`voice_clone` / `voice_design` 校验入参后返回指引，指向 dsh-plugin-wwrs-comfyui 对应模板（`experimental`）。`pronunciation_dict` 返回内置纠音与 `<工作区>/.wwrs/pronunciation-dict.json`（若有）的合并。四个工具的读写都在已配置的工作区之下，并受写保护守卫覆盖。
 
+## 验证
+
+跑 `pnpm check`（prettier 检查 + `tsc --noEmit` + `node --test tests/*.test.ts`）。
+
 ## 许可
 
 MIT.

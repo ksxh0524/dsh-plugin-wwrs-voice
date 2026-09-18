@@ -35,6 +35,10 @@ Credentials come from the environment only: `MINIMAX_API_KEY` (missing key fails
 
 `voice_synthesize{text, voiceId, model, outputPath, speed?, emotion?, overwrite?}` synthesizes narration to mp3 plus word timestamps (`voiceId`/`model` are explicit, never defaulted; `overwrite` defaults to false; over-long text is rejected for chunked calls). `voice_clone` / `voice_design` validate their inputs and return guidance toward the matching dsh-plugin-wwrs-comfyui template (`experimental`). `pronunciation_dict` returns built-in corrections merged with `<workspace>/.wwrs/pronunciation-dict.json` when present. All four tools write or read under the configured workspace and are covered by the write guard.
 
+## Verify
+
+Run `pnpm check` (prettier check + `tsc --noEmit` + `node --test tests/*.test.ts`).
+
 ## License
 
 MIT.
